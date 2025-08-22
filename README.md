@@ -11,10 +11,11 @@ python install -r requirements.txt
 ```
 
 ## Dataset
-This work uses a subset of images from the [Global Streetscapes dataset](https://huggingface.co/datasets/NUS-UAL/global-streetscapes).
-We provide the Street Perception Evaluation Considering Socioeconomics (SPECS) dataset in [hugging face](https://huggingface.co/datasets/matiasqr/specs).
-After downloading its contents in `data/` the folder should have the following subfolders:
 ![](img/specs-logo.png)
+
+We provide the Street Perception Evaluation Considering Socioeconomics (SPECS) dataset in [hugging face](https://huggingface.co/datasets/matiasqr/specs).
+This work uses a subset of images from the [Global Streetscapes dataset](https://huggingface.co/datasets/NUS-UAL/global-streetscapes).
+After downloading its contents in `data/` the folder should have the following subfolders:
 
 ```
 data
