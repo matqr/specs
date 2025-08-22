@@ -12,7 +12,7 @@ python install -r requirements.txt
 
 ## Dataset
 This work uses a subset of images from the [Global Streetscapes dataset](https://huggingface.co/datasets/NUS-UAL/global-streetscapes).
-The tabular dataset and imagery is hosted in [hugging face](https://huggingface.co/datasets/matiasqr/specs)
+The tabular dataset and imagery is hosted in [hugging face](https://huggingface.co/datasets/matiasqr/specs).
 After downloading its contents in `data/` the folder should have the following subfolders:
 
 ```
