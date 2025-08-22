@@ -17,10 +17,17 @@ After downloading its contents in `data/` the folder should have the following s
 
 ```
 data
-|
-|- global-streetscapes (download contextual data from original repo)
-|- labels
-|- svi
+├── abuja/
+    ├── 10 CSV files with contextual information for these images
+├── global-streetscapes/ (download contextual data from original [Global Streetscapes](https://huggingface.co/datasets/NUS-UAL/global-streetscapes))
+├── labels/
+    ├── final/ (6 XLSX files with final pairwise comparisons)
+    ├── inferences/ (6 CSV files with inferred perception scores using the perception model used in [Global Streetscapes](https://huggingface.co/datasets/NUS-UAL/global-streetscapes))
+    ├── processed/ (10 CSV files with computed perception Q scores)
+├── svi/ (SVIs should be downloaded following the [wiki](https://github.com/matqr/specs/wiki) or with the metadata file)
+    ├── img_paths.csv (path location )
+    ├── metadata.csv (file with imagery metadata)
+    ├── visual_complexity_all.csv
 ```
 
 ## Methodology
