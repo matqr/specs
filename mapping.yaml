@@ -1,0 +1,111 @@
+columns:
+    # Demographic questions
+    D1: gender
+    D2: age_group
+    D3: nationality
+    D4: country_living
+    D6: city_living_length
+    # Anual Household Income (AHI) columns will be remapped later
+    D8: num_household
+    D9: education_level
+    D10: race_ethnicity
+
+values:
+    Country: # country were the survey was deployed
+      1: Singapore
+      2: Chile
+      3: USA
+      4: Netherlands
+      5: Nigeria
+    gender:
+      1: male
+      2: female
+      3: non-binary
+      4: not-say
+    age_group:
+      1: Less than 21 years old  
+      2: 21-29
+      3: 30-39
+      4: 40-49
+      5: Above 50
+    city_living_length:
+      1: Less than 1 year
+      2: 1-3 years
+      3: 3-5 years
+      4: Above 5 years
+    D7xSG:
+      1: SGD$0 - SGD$9,999
+      2: SGD$10,000 - SGD$24,999
+      3: SGD$25,000 - SGD$44,999
+      4: SGD$45,000 - SGD$62,999
+      5: SGD$63,000 - SGD$81,999
+      6: SGD$82,000 - SGD$99,999
+      7: SGD$100,000 - SGD$119,999
+      8: SGD$120,000 - SGD$139,999
+      9: SGD$140,000 - SGD$159,999
+      10: SGD$160,000 - SGD$179,999
+      11: SGD$180,000 - SGD$999,999
+      12: Prefer not to answer
+    D7xND: 
+      1: 17,999 euros & below
+      2: 18,000 euros-29,999 euros
+      3: 30,000 euros-47,999 euros
+      4: 48,000 euros-64,999 euros
+      5: 65,000 euros-81,999 euros
+      6: 82,000 euros-99,999 euros
+      7: 100,000 euros & above
+      8: Prefer not to answer
+    D7xUS: 
+      1: USD$0 - USD$24,999
+      2: USD$25,000 - USD$34,999
+      3: USD$35,000 - USD$49,999
+      4: USD$50,000 - USD$74,999
+      5: USD$75,000 - USD$99,999
+      6: USD$100,000 - USD$149,999
+      7: USD$150,000 - USD$199,999
+      8: USD$200,000 - USD$999,999
+      9: Prefer not to answer
+    D7xCHL:
+      1: 8,151,000 CLP & below
+      2: 8,151,001 CLP-20,400,000 CLP
+      3: 20,400,001 CLP-40,400,000 CLP
+      4: 40,400,001 CLP-60,400,000 CLP
+      5: 60,400,001 CLP-80,400,000 CLP
+      6: 80,400,001 CLP & above
+      7: Prefer not to answer
+    D7xNGR:
+      1: 2,000,000 NGN & below
+      2: 2,000,001 NGN-4,000,000 NGN
+      3: 4,000,001 NGN-6,799,999 NGN
+      4: 6,800,000 NGN & above
+      5: Prefer not to answer
+    education_level:
+      1: Less than Secondary/High school
+      2: Secondary/High school graduate or equivalent
+      3: College or Vocational training or Diploma
+      4: Bachelors degree
+      5: Masters degree
+      6: Doctorate or professional degree
+      7: Other
+    race_ethnicity:
+      1: Asian or Pacific Islander
+      2: Black or African American
+      3: Hispanic or Latino
+      4: Native American or Alaska Native
+      5: White or Caucasian
+      6: Middle Eastern or  North African
+      7: A race/ethnicity not listed here
+
+    # indicators for pair-wise comparison
+    Question:
+      Q1: safe
+      Q2: lively
+      Q3: boring
+      Q4: wealthy
+      Q5: depressing
+      Q6: beautiful
+      Q7: live nearby
+      Q8: cycle
+      Q9: walk
+      Q10: green
+    
