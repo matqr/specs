@@ -1,4 +1,4 @@
-# It's not you, it's me: Global urban visual perception varies across demographics and personalities
+# Global urban visual perception varies across demographics and personalities
 
 This repository is the official implementation of [Global urban visual perception varies across demographics and personalities](https://arxiv.org/abs/2505.12758).
 
@@ -103,7 +103,18 @@ If you use our dataset or work, please cite the paper:
 
 BibTeX:
 ```
-@article{TODO
+@article{Quintana2025,
+  title = {Global Urban Visual Perception Varies across Demographics and Personalities},
+  author = {Quintana, Matias and Gu, Youlong and Liang, Xiucheng and Hou, Yujun and Ito, Koichi and Zhu, Yihan and Abdelrahman, Mahmoud and Biljecki, Filip},
+  year = {2025},
+  eprint = {2505.12758},
+  eprinttype = {arXiv},
+  eprintclass = {cs},
+  doi = {10.48550/arXiv.2505.12758},
+  url = {http://arxiv.org/abs/2505.12758},
+  langid = {english},
+  pubstate = {prepublished},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
 }
 ```
 
