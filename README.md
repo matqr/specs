@@ -101,14 +101,18 @@ The statistical analyses and plots are ran with `10_indicators-correlations_plot
 # Paper / Attribution / Citation
 If you use our dataset or work, please cite the paper:
 
+Quintana M, Gu Y, Liang X, Hou Y, Ito K, Zhu Y, Abdelrahman M, Biljecki F (2025): Global urban visual perception varies across demographics and personalities. Nature Cities 2(11): 1092-1106. doi: 10.1038/s44284-025-00330-x
+
 BibTeX:
 ```
 @article{quintana2025,
   title = {Global Urban Visual Perception Varies across Demographics and Personalities},
   author = {Quintana, Matias and Gu, Youlong and Liang, Xiucheng and Hou, Yujun and Ito, Koichi and Zhu, Yihan and Abdelrahman, Mahmoud and Biljecki, Filip},
-  date = {2025-10-22},
-  journaltitle = {Nature Cities},
-  shortjournal = {Nat Cities},
+  year = {2025},
+  journal = {Nature Cities},
+  volume = {2},
+  number = {11},
+  pages = {1092--1106},
   issn = {2731-9997},
   doi = {10.1038/s44284-025-00330-x},
   url = {https://www.nature.com/articles/s44284-025-00330-x},
